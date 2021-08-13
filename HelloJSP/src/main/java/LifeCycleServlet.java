@@ -14,7 +14,7 @@ public class LifeCycleServlet extends HttpServlet {
 		
 		ServletContext context = getServletContext();
 		//	컨텍스트 파라미터 받아오기
-		String dbuser= context.getInitParameter("dbuser");
+		String dbuser = context.getInitParameter("dbuser");
 		String dbpass = context.getInitParameter("dbpass");
 		
 		System.out.println("컨텍스트 파라미터 dbuser:" + dbuser);
