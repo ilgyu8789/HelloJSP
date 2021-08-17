@@ -9,10 +9,11 @@
 </head>
 <body>
 	<h3>Hello HTML</h3>
-	<p>이것은 me가 작성한 첫번째 HTML 입니다.</p>
+	<p>이것은 namsk가 작성한 첫번째 HTML 입니다.</p>
 	
 	<ul>
 		<li><a href="<%= request.getContextPath() %>/users?a=joinform">회원가입</a></li>
+		<li><a href="<%= request.getContextPath() %>/users?a=loginform">로그인</a></li>
 	</ul>
 	
 	<h4>GET 전송</h4>
@@ -31,9 +32,9 @@
 	</form>
 	
 	<h4>Emaillist (Model 1)</h4>
-	<p><a href="/HelloJSP/emaillist/">이메일리스트 (Model 1)</a>
+	<p><a href="/web/emaillist/">이메일리스트 (Model 1)</a>
 	
 	<h4>Emaillist (Model 2:MVC)</h4>
-	<p><a href="/HelloJSP/el">이메일리스트 (Model 2)</a>
+	<p><a href="/web/el">이메일리스트 (Model 2)</a>
 </body>
 </html>
