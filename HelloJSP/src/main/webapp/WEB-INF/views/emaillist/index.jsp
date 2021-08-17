@@ -54,6 +54,6 @@ List<EmailVo> list = dao.getList();
 	<p>
 		<a href="<%= request.getContextPath() %>/emaillist/form.jsp">추가 이메일 등록</a>
 	</p>
-	
+	 
 </body>
 </html>

@@ -24,7 +24,7 @@
 		<!-- 전송 버튼 -->
 		<input type="submit" value="등록" />
 	</form>
-	
+	  
 	<!-- 리스트로 돌아가기  -->
 	<p>
 		<a href="<%= request.getContextPath() %>/emaillist/">목록 보기</a>
