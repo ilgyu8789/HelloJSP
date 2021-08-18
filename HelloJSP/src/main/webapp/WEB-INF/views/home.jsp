@@ -7,11 +7,6 @@
 	<jsp:param value="메인 페이지" name="message"/>
 </jsp:include>
 	
-	<ul>
-		<li><a href="<%= request.getContextPath() %>/users?a=joinform">회원가입</a></li>
-		<li><a href="<%= request.getContextPath() %>/users?a=loginform">로그인</a></li>
-	</ul>
-	
 	<h4>GET 전송</h4>
 	<p>
 		<a href="hs?name=Servlet">HelloServlet 호출</a>
@@ -28,10 +23,10 @@
 	</form>
 	
 	<h4>Emaillist (Model 1)</h4>
-	<p><a href="/HelloJSP/emaillist/">이메일리스트 (Model 1)</a>
+	<p><a href="/web/emaillist/">이메일리스트 (Model 1)</a>
 	
 	<h4>Emaillist (Model 2:MVC)</h4>
-	<p><a href="/HelloJSP/el">이메일리스트 (Model 2)</a>
+	<p><a href="/web/el">이메일리스트 (Model 2)</a>
 
 	<h4>Cookie Test</h4>
 	<p><a href="<%= request.getContextPath() %>/cookies">쿠키 테스트</a>
